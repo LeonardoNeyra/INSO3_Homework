@@ -26,6 +26,7 @@ public class PersonaController {
 	@RequestMapping(value = "/leer/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<Persona> getId(@PathVariable("id") Integer id){
 		logger.info("> getId [Persona]");
+		logger.info("> getId [Persona]");
 		
 		Persona per = null;
 		try {
