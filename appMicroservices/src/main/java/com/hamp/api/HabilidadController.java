@@ -35,7 +35,7 @@ public class HabilidadController {
 			list = service.getHabilidadByPersonaId(id);
  
 			if (list == null) {
-				list = new ArrayList<Habilidad>();
+				list = new ArrayList<>();
 			}
 		} catch (Exception e) {
 			logger.error("Unexpected Exception caught.", e);
