@@ -19,11 +19,12 @@ public class AppMicroservicesApplicationTests {
 	IPersonaRepository ipersonar;
 	
 	@Test
-	public void contextLoads() {
+	public void contextLoads() throws Exception {
 	
 		Persona p=new Persona();
 		p.setCorreo("hmendo81@gmail.com");
-		assertEquals("1", p);
+		
+		assertEquals("1", ipersonar.getUserIdByEmail("hmendo81@gmail.com"));
 		
 	}
 
