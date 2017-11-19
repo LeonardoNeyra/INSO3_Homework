@@ -19,7 +19,7 @@ public class AppMicroservicesApplicationTests {
 	IPersonaRepository ipersonar;
 	
 	@Test
-	public void contextLoads() throws Exception {
+	public void getUserIdByEmail() throws Exception {
 	
 		
 		assertEquals("1", ipersonar.getUserIdByEmail("hmendo81@gmail.com"));
