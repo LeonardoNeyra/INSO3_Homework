@@ -1,4 +1,4 @@
 # IntegracionContinuaJenkins
 Demo de integracion continua utilizando jenkins
 
-#### Video: 
+#### Video: https://youtu.be/WqorEqi-is4
